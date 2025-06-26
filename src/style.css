@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@import '@splidejs/vue-splide/css';
+
+@theme {
+    --font-primary: 'Rubik', sans-serif;
+    --color-blue-primary: #141F27;
+}
