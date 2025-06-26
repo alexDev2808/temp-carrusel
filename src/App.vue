@@ -1,36 +1,27 @@
 <script setup lang="ts">
 import RelojDigital from './components/RelojDigital.vue';
+import CarruselComunicados from './components/CarruselComunicados.vue';
+import CarruselEnsamble from './components/CarruselEnsamble.vue';
 
-const options = {
-  rewind: true,
-  gap: '1rem',
-  autoplay: true,
-  interval: 3000,
-  type: 'loop',
-  drag: true,
-}
 
 </script>
 
 <template>
 
-  <div class="w-full min-h-screen overflow-hidden">
+  <div class="w-full h-screen">
 
     <div class="grid grid-cols-2 gap-2 h-2/3 overflow-hidden">
       <div class="">
-        <Splide :options="options" aria-label="Carrusel Ensamble">
-          <SplideSlide>
-            <img src="/assets/image3.jpg" class="object-cover w-full h-full" alt="Sample 1">
-          </SplideSlide>
-          <SplideSlide>
-            <img src="/assets/image4.jpg" class="object-cover w-full h-full" alt="Sample 2">
-          </SplideSlide>
-        </Splide>
+        <CarruselComunicados />
+      </div>
+
+      <div class="">
+        <CarruselEnsamble />
       </div>
 
     </div>
 
-    <div class="h-1/3 ps-12 py-8">
+    <div class="h-1/3 ps-12 pb-10">
 
         <div class="grid grid-cols-2 h-full gap-2">
 
