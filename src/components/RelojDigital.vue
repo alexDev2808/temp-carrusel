@@ -17,7 +17,7 @@ function updateTime() {
   });
 }
 
-let interval : any = null
+let interval: any = null
 
 onMounted(() => {
   updateTime()
@@ -31,15 +31,15 @@ onUnmounted(() => {
 
 
 <template>
-  <div class="text-5xl font-bold text-white mb-3 leading-3">
-    {{ date }}
-  </div>
-  <div class="text-9xl font-extrabold text-white">
-    <span class="clock-time">{{ time }}</span>
+  <div class="mb-0 pb-0">
+    <div class="text-3xl font-bold text-white mb-2 leading-3">
+      {{ date }}
+    </div>
+    <div class="text-7xl font-extrabold text-white">
+      {{ time }}
+    </div>
   </div>
 </template>
 
 
-<style scoped>
-
-</style>
+<style scoped></style>
