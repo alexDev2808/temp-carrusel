@@ -25,7 +25,7 @@ import CarruselInyeccion from '../components/CarruselInyeccion.vue';
 
       <div class="w-2/3 h-full flex">
 
-        <div class="w-1/4 flex flex-col text-white">
+        <div class="w-1/4 h-full flex flex-col text-white justify-end">
           <div class="my-1.5 w-full flex flex-col items-center">
             <img src="/assets/Info.png" alt="Icono informacion" class="w-6 mb-2">
             <p class="font-bold leading-2 text-lg">Información</p>
