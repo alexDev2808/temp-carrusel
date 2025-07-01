@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import RelojDigital from '../components/RelojDigital.vue';
 import CarruselComunicados from '../components/CarruselComunicados.vue';
-import CarruselEnsamble from '../components/CarruselEnsamble.vue';
+import CarruselInyeccion from '../components/CarruselInyeccion.vue';
 
 
 </script>
@@ -16,7 +16,7 @@ import CarruselEnsamble from '../components/CarruselEnsamble.vue';
       </div>
 
       <div class="w-1/2 h-full overflow-auto">
-        Hola
+        <CarruselInyeccion />
       </div>
     </div>
 
