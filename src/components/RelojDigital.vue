@@ -31,13 +31,9 @@ onUnmounted(() => {
 
 
 <template>
-  <div class="mb-0 pb-0">
-    <div class="text-3xl font-bold text-white mb-2 leading-3">
-      {{ date }}
-    </div>
-    <div class="text-7xl font-extrabold text-white">
-      {{ time }}
-    </div>
+  <div class="flex flex-col justify-end">
+    <p class="text-3xl font-bold text-white leading-3">{{ date }}</p>
+    <p class="text-7xl font-extrabold text-white">{{ time }}</p>
   </div>
 </template>
 

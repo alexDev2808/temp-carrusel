@@ -1,18 +1,30 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import EnsambleView from '../views/EnsambleView.vue'
-import InyeccionView from '../views/InyeccionView.vue'
-
 const routes = [
   {
     path: '/',
+    name: 'Inicio',
+    component: () => import('../views/HomeView.vue')
+  },
+  {
+    path: '/ensamble',
     name: 'Ensamble',
-    component: EnsambleView
+    component: () => import('../views/EnsambleView.vue')
   },
   {
     path: '/inyeccion',
     name: 'Inyeccion',
     component: () => import('../views/InyeccionView.vue'),
+  },
+  {
+    path: '/comunicados',
+    name: 'Comunicados',
+    component: () => import('../views/ComunicadosView.vue')
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'No encontrado',
+    component: () => import('../views/NotFoundView.vue')
   }
 ]
 
