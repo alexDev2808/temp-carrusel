@@ -2,16 +2,16 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 
 const elementos = [
-  { id: 1, image: 'inicio.jpg', alt: 'Imagen Inicio Taurus' },
-  { id: 2, image: 'calidad_taurus.jpg', alt: 'Calidad Taurus' },
+//   { id: 1, image: 'inicio.jpg', alt: 'Imagen Inicio Taurus' },
+//   { id: 2, image: 'calidad_taurus.jpg', alt: 'Calidad Taurus' },
   { id: 3, image: 'viveeco.jpg', alt: 'Calidad Taurus' },
-  { id: 4, image: 'ventainterna.jpg', alt: 'Calidad Taurus' },
+//   { id: 4, image: 'ventainterna.jpg', alt: 'Calidad Taurus' },
   { id: 5, image: '5eses.jpg', alt: 'Calidad Taurus' },
   { id: 6, image: 'honestometro.jpg', alt: 'Calidad Taurus' },
 ]
 
 const currentIndex = ref(0)
-const intervalTime = 30000 // 30 segundos
+const intervalTime = 50000 // 50 segundos
 let autoplayInterval = null
 
 const goToSlide = (index) => {
@@ -115,12 +115,12 @@ onUnmounted(() => {
       </div>
 
       <!-- Controles -->
-      <button @click="prevSlide" class="nav-button prev">
+      <!-- <button @click="prevSlide" class="nav-button prev">
         ‹
       </button>
       <button @click="nextSlide" class="nav-button next">
         ›
-      </button>
+      </button> -->
     </div>
   </div>
 </template>
@@ -134,7 +134,7 @@ onUnmounted(() => {
   max-width: 800px;
   margin: 0 auto;
   background: #000;
-  border-radius: 12px;
+  border-radius: 0px;
   overflow: hidden;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }

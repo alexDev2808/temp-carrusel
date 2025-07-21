@@ -203,11 +203,11 @@ onUnmounted(() => {
           <!-- Overlay con información del video -->
           <div class="video-overlay">
             <!-- <h3>{{ elemento.title || `Video ${index + 1}` }}</h3> -->
-            <div class="video-controls">
+            <!-- <div class="video-controls">
               <button @click="togglePlay(index)" class="control-btn">
                 {{ isPlaying[index] ? '⏸' : '▶' }}
               </button>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -224,12 +224,12 @@ onUnmounted(() => {
       </div>
 
       <!-- Controles de navegación -->
-      <button @click="prevSlide" class="nav-button prev" :disabled="currentIndex === 0">
+      <!-- <button @click="prevSlide" class="nav-button prev" :disabled="currentIndex === 0">
         ‹
       </button>
       <button @click="nextSlide" class="nav-button next" :disabled="currentIndex === elementos.length - 1">
         ›
-      </button>
+      </button> -->
     </div>
 
     <!-- Información de debug -->
@@ -250,7 +250,7 @@ onUnmounted(() => {
   max-width: 800px;
   margin: 0 auto;
   background: #000;
-  border-radius: 12px;
+  border-radius: 0px;
   overflow: hidden;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }

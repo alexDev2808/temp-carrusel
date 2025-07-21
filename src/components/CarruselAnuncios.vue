@@ -17,20 +17,20 @@ const elementos = [
         titulo: 'Frase de la semana',
         contenido: 'Cuando todo parezca ir contra ti, recuerda que el avión despega contra el viento, no a favor de él. (Henry Ford)'
     },
-    {
-        id: 4,
-        titulo: 'Capacitación continua',
-        contenido: 'Nuevos cursos disponibles en la plataforma de aprendizaje. Inscríbete antes del 15 de agosto.'
-    },
-    {
-        id: 5,
-        titulo: 'Reunión mensual',
-        contenido: 'La próxima reunión general será el viernes 25 de agosto a las 10:00 AM en el auditorio principal.'
-    }
+    // {
+    //     id: 4,
+    //     titulo: 'Capacitación continua',
+    //     contenido: 'Nuevos cursos disponibles en la plataforma de aprendizaje. Inscríbete antes del 15 de agosto.'
+    // },
+    // {
+    //     id: 5,
+    //     titulo: 'Reunión mensual',
+    //     contenido: 'La próxima reunión general será el viernes 25 de agosto a las 10:00 AM en el auditorio principal.'
+    // }
 ];
 
 const currentIndex = ref(0)
-const intervalTime = 15000
+const intervalTime = 30000
 let autoplayInterval = null
 
 const totalSlides = Math.ceil(elementos.length / 2)
@@ -239,28 +239,28 @@ onUnmounted(() => {
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
 }
 
-.card-header {
-  margin-bottom: 12px;
-}
+/* .card-header {
+  margin-bottom: 8px;
+} */
 
 .card-title {
   margin: 0;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 600;
-  color: #2d3748;
+  color: #000;
   line-height: 1.3;
 }
 
 .card-body {
-  margin-bottom: 15px;
+  /* margin-bottom: 8px; */
   flex: 1; /* El contenido ocupa el espacio disponible */
 }
 
 .card-content {
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
-  color: #4a5568;
+  color: #000;
 }
 
 .card-footer {

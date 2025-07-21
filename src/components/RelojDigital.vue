@@ -32,8 +32,8 @@ onUnmounted(() => {
 
 <template>
   <div class="flex flex-col justify-end">
-    <p class="text-3xl font-bold text-white leading-3">{{ date }}</p>
-    <p class="text-7xl font-extrabold text-white">{{ time }}</p>
+    <p class="text-9xl font-extrabold text-white">{{ time }}</p>
+    <p class="text-4xl font-bold text-white leading-3 text-center">{{ date }}</p>
   </div>
 </template>
 

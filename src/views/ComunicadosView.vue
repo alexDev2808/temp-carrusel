@@ -12,7 +12,10 @@ import CarruselAnuncios from '../components/CarruselAnuncios.vue';
     <main class="flex">
         <div class="flex flex-col w-2/5 h-screen ps-3">
             <div class="h-3/5 mt-2">
-                <h2 class="font-bold text-2xl text-white">Comunicados</h2>
+                <div class="flex justify-between">
+                    <img src="/assets/Taurus_slogan.png" alt="Logo Taurus" width="120">
+                    <h2 class="font-bold text-2xl text-white">Anuncios</h2>
+                </div>
                 <div class="w-full h-full">
                     <CarruselAnuncios />
                 </div>
@@ -30,7 +33,7 @@ import CarruselAnuncios from '../components/CarruselAnuncios.vue';
                     </div>
                 </div>
 
-                <div class="w-3/4 flex items-end">
+                <div class="w-3/4 flex">
                     <RelojDigital />
                 </div>
             </div>
