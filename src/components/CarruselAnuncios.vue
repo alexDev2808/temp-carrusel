@@ -2,11 +2,7 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 
 const elementos = [
-    {
-        id: 1,
-        titulo: 'Suspensión de labores',
-        contenido: 'Las proximas fechas serán del 04 al 17 de agosto, reactivando el 18 de agosto.'
-    },
+
     {
         id: 2,
         titulo: 'Apoyo de útiles escolares',
