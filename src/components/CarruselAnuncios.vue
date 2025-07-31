@@ -12,17 +12,7 @@ const elementos = [
         id: 2,
         titulo: 'Frase de la semana',
         contenido: 'La vida no se trata de esperar a que pase la tormenta, sino de aprender a bailar bajo la lluvia (Vivian Greene).'
-    },
-    // {
-    //     id: 4,
-    //     titulo: 'Capacitación continua',
-    //     contenido: 'Nuevos cursos disponibles en la plataforma de aprendizaje. Inscríbete antes del 15 de agosto.'
-    // },
-    // {
-    //     id: 5,
-    //     titulo: 'Reunión mensual',
-    //     contenido: 'La próxima reunión general será el viernes 25 de agosto a las 10:00 AM en el auditorio principal.'
-    // }
+    }
 ];
 
 const currentIndex = ref(0)

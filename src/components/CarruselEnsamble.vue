@@ -12,7 +12,11 @@ const options = {
 
 <template>
 
-    <Splide :options="options" aria-label="Carrusel Ensamble">
+    <div class="w-full h-screen flex justify-center items-center">
+        <iframe class="w-full h-full" src="https://lookerstudio.google.com/embed/reporting/e687bb67-03ce-4d1b-b100-585d7d7e8c7e/page/yM8RE" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+    </div>
+
+    <!-- <Splide :options="options" aria-label="Carrusel Ensamble">
         <SplideSlide>
             <iframe class="w-full" height="295" src="https://lookerstudio.google.com/embed/reporting/e687bb67-03ce-4d1b-b100-585d7d7e8c7e/page/yM8RE" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
         </SplideSlide>
@@ -26,8 +30,18 @@ const options = {
             <iframe class="w-full" height="295" src="https://lookerstudio.google.com/embed/reporting/e687bb67-03ce-4d1b-b100-585d7d7e8c7e/page/p_cd4x3c9wnd" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
         </SplideSlide>
 
-    </Splide>
+    </Splide> -->
 
 </template>
 
-<style scoped></style>
+<style scoped>
+.w-full {
+  width: 100%;
+}
+.h-screen {
+  height: 100vh;
+}
+.h-full {
+  height: 100%;
+}
+</style>
