@@ -4,14 +4,14 @@ import { ref, onMounted, onUnmounted } from 'vue'
 const elementos = [
 
     {
-        id: 2,
+        id: 1,
         titulo: 'Apoyo de útiles escolares',
         contenido: 'Recuerda, tienes hasta el 04 de agosto para hacer el registro y aprovechar este apoyo.'
     },
     {
-        id: 3,
+        id: 2,
         titulo: 'Frase de la semana',
-        contenido: 'Cuando todo parezca ir contra ti, recuerda que el avión despega contra el viento, no a favor de él. (Henry Ford)'
+        contenido: 'La vida no se trata de esperar a que pase la tormenta, sino de aprender a bailar bajo la lluvia (Vivian Greene).'
     },
     // {
     //     id: 4,

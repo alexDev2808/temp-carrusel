@@ -21,7 +21,7 @@ import CarruselAnuncios from '../components/CarruselAnuncios.vue';
                 </div>
             </div>
 
-            <div class="h-2/5 flex pb-5 gap-2">
+            <div class="h-2/5 flex pb-5 gap-2 me-0">
                 <div class="w-1/4 flex flex-col gap-1 text-white justify-end">
                     <div class="w-full flex flex-col items-center">
                         <img src="/assets/Info.png" alt="Icono informacion" class="w-6 mb-3">

@@ -2,12 +2,9 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 
 const elementos = [
-//   { id: 1, image: 'inicio.jpg', alt: 'Imagen Inicio Taurus' },
-//   { id: 2, image: 'calidad_taurus.jpg', alt: 'Calidad Taurus' },
-  { id: 3, image: 'viveeco.jpg', alt: 'Calidad Taurus' },
-//   { id: 4, image: 'ventainterna.jpg', alt: 'Calidad Taurus' },
-  { id: 5, image: '5eses.jpg', alt: 'Calidad Taurus' },
-  { id: 6, image: 'honestometro.jpg', alt: 'Calidad Taurus' },
+  { id: 1, image: 'viveeco.jpg', alt: 'ViveEco' },
+  { id: 2, image: '5eses.jpg', alt: '5 eses mas s' },
+  { id: 3, image: 'Meses5semanas.jpg', alt: 'Meses con 5 semanas' },
 ]
 
 const currentIndex = ref(0)
