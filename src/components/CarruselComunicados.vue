@@ -3,8 +3,8 @@ import { ref, onMounted, onUnmounted } from 'vue'
 
 const elementos = [
   { id: 1, image: 'viveeco.jpg', alt: 'ViveEco' },
-  { id: 2, image: '5eses.jpg', alt: '5 eses mas s' },
-  { id: 3, image: 'Meses5semanas.jpg', alt: 'Meses con 5 semanas' },
+  { id: 2, image: 'HonestometroFem3539.jpg', alt: 'Honestometro Fem' },
+  { id: 3, image: 'HonestometroPaletas3539.jpg', alt: 'Honestrometro Paletas' },
 ]
 
 const currentIndex = ref(0)

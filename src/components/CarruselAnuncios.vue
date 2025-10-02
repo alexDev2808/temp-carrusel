@@ -5,13 +5,8 @@ const elementos = [
 
     {
         id: 1,
-        titulo: 'Apoyo de útiles escolares',
-        contenido: 'Recuerda, tienes hasta el 04 de agosto para hacer el registro y aprovechar este apoyo.'
-    },
-    {
-        id: 2,
         titulo: 'Frase de la semana',
-        contenido: 'La vida no se trata de esperar a que pase la tormenta, sino de aprender a bailar bajo la lluvia (Vivian Greene).'
+        contenido: 'El éxito no es la clave de la felicidad. La felicidad es la clave del éxito. Si amas lo que haces, tendrás éxito." (Albert Schweitzer).'
     }
 ];
 

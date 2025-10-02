@@ -11,7 +11,6 @@ function updateTime() {
   time.value = `${h}:${m}`
 
   date.value = now.toLocaleDateString('es-MX', {
-    year: 'numeric',
     month: 'long',
     day: 'numeric'
   });
