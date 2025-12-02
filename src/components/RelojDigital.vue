@@ -1,6 +1,16 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
 
+interface Props {
+  timeSize?: string
+  dateSize?: string
+}
+
+const props = withDefaults(defineProps<Props>(), {
+  timeSize: 'text-6xl xl:text-7xl',
+  dateSize: 'text-2xl xl:text-3xl'
+})
+
 const time = ref('');
 const date = ref('');
 
@@ -11,7 +21,6 @@ function updateTime() {
   time.value = `${h}:${m}`
 
   date.value = now.toLocaleDateString('es-MX', {
-    year: 'numeric',
     month: 'long',
     day: 'numeric'
   });
@@ -31,13 +40,9 @@ onUnmounted(() => {
 
 
 <template>
-  <div class="mb-0 pb-0">
-    <div class="text-3xl font-bold text-white mb-2 leading-3">
-      {{ date }}
-    </div>
-    <div class="text-7xl font-extrabold text-white">
-      {{ time }}
-    </div>
+  <div class="flex flex-col justify-end">
+    <p :class="[props.timeSize, 'font-extrabold text-white p-0 m-0']">{{ time }}</p>
+    <p :class="[props.dateSize, 'font-bold text-white leading-3 text-center']">{{ date }}</p>
   </div>
 </template>
 
