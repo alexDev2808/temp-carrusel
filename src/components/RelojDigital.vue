@@ -1,6 +1,16 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
 
+interface Props {
+  timeSize?: string
+  dateSize?: string
+}
+
+const props = withDefaults(defineProps<Props>(), {
+  timeSize: 'text-6xl xl:text-7xl',
+  dateSize: 'text-2xl xl:text-3xl'
+})
+
 const time = ref('');
 const date = ref('');
 
@@ -31,8 +41,8 @@ onUnmounted(() => {
 
 <template>
   <div class="flex flex-col justify-end">
-    <p class="text-8xl xl:text-9xl  font-extrabold text-white p-0 m-0">{{ time }}</p>
-    <p class="text-3xl xl:text-4xl font-bold text-white leading-3 text-center">{{ date }}</p>
+    <p :class="[props.timeSize, 'font-extrabold text-white p-0 m-0']">{{ time }}</p>
+    <p :class="[props.dateSize, 'font-bold text-white leading-3 text-center']">{{ date }}</p>
   </div>
 </template>
 

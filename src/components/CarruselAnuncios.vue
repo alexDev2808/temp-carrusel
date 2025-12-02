@@ -6,7 +6,7 @@ const elementos = [
     {
         id: 1,
         titulo: 'Frase de la semana',
-        contenido: 'El éxito no es la clave de la felicidad. La felicidad es la clave del éxito. Si amas lo que haces, tendrás éxito." (Albert Schweitzer).'
+        contenido: 'En noviembre se comienza a saber qué tan largo el invierno será - Martha Gellhorn.'
     }
 ];
 

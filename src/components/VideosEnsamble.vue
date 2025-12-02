@@ -3,9 +3,9 @@ import { ref, onMounted, onUnmounted, nextTick, reactive } from 'vue'
 
 // Props y datos
 const elementos = [
-  { id: 1, videoName: 'MedusaCleanLiberty.mp4', title: 'Medusa Clean' },
+  { id: 1, videoName: 'Hawai_web.mp4', title: 'Hawai Web' },
   { id: 2, videoName: 'ConoceTuCredencial.mp4', title: 'Conoce tu credencial Taurus' },
-  { id: 3, videoName: 'SeguridadSalud.mp4', title: 'Seguridad y Salud' },
+  { id: 3, videoName: 'LibreAsociacion.mp4', title: 'Libre asociación' },
 ]
 
 // Referencias reactivas

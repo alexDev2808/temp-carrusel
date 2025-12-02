@@ -24,3 +24,5 @@ dist-ssr
 *.sw?
 
 # public/assets
+public/assets/*
+!public/assets/.gitkeep

@@ -34,7 +34,10 @@ import CarruselAnuncios from '../components/CarruselAnuncios.vue';
                 </div>
 
                 <div class="w-3/4 flex">
-                    <RelojDigital />
+                    <RelojDigital
+                        time-size="text-7xl xl:text-8xl" 
+                        date-size="text-3xl xl:text-4xl"
+                    />
                 </div>
             </div>
         </div>

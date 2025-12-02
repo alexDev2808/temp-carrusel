@@ -2,9 +2,12 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 
 const elementos = [
+  { id: 0, image: 'Descuento.jpg', alt: 'Descuento Buen Fin 30%' },
   { id: 1, image: 'viveeco.jpg', alt: 'ViveEco' },
-  { id: 2, image: 'HonestometroFem3539.jpg', alt: 'Honestometro Fem' },
-  { id: 3, image: 'HonestometroPaletas3539.jpg', alt: 'Honestrometro Paletas' },
+  // { id: 2, image: 'honestometroFem4044.jpg', alt: 'Honestometro Fem' },
+  // { id: 3, image: 'honestometroPaletas4044.jpg', alt: 'Honestrometro Paletas' },
+  // { id: 4, image: 'mesaTrabajo.jpg', alt: 'Mesa de Trabajo' },
+  { id: 5, image: '5eses.jpg', alt: '5s + s' },
 ]
 
 const currentIndex = ref(0)
